@@ -1,0 +1,26 @@
+.grid{
+  display: grid;
+  grid-template-columns: 20% 100px auto 1fr;
+  grid-template-rows: 5em auto;
+}
+
+.e1{
+  text-align: center;
+  background-color: aquamarine;
+}
+.e2{
+  text-align: center;
+  background-color: rgb(163, 163, 209);
+}
+.e3{
+  text-align: center;
+  background-color: burlywood;
+}
+.e4{
+  text-align: center;
+  background-color: darkcyan;
+}
+.e5{
+  text-align: center;
+  background-color: bisque;
+}
