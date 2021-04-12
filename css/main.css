@@ -1,44 +1,47 @@
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 20% 1fr 20% 1fr;
-      grid-template-columns: 20% 1fr 20% 1fr;
+  text-align: center;
+  grid-auto-flow: row;
+  -ms-grid-columns: 20% 1fr 20%;
+      grid-template-columns: 20% 1fr 20%;
   -ms-grid-rows: 100px 60px 40px;
       grid-template-rows: 100px 60px 40px;
 }
 
 .e1 {
-  -ms-grid-row: 4;
-  grid-row: 4;
-  grid-column: 1/-1;
+  grid-row: 1/-3;
+  -ms-grid-column: 3;
+  grid-column: 3;
   text-align: center;
   background-color: aquamarine;
 }
 
 .e2 {
-  -ms-grid-row: 1;
-  grid-row: 1;
-  grid-column: 1/-1;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  grid-column: 1/-2;
   text-align: center;
   background-color: #a3a3d1;
 }
 
 .e3 {
-  -ms-grid-row: 3;
-  grid-row: 3;
-  grid-column: 1/-1;
+  -ms-grid-column: 3;
+  grid-column: 3;
   text-align: center;
-  background-color: burlywood;
+  background-color: #dcb685;
 }
 
 .e4 {
+  -ms-grid-column: 1;
+  grid-column: 1;
   text-align: center;
-  background-color: darkcyan;
+  background-color: #00b0b0;
 }
 
 .e5 {
   text-align: center;
-  background-color: bisque;
+  background-color: #fee4c4;
 }
 
 .e6 {
