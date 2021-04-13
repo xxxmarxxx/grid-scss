@@ -1,0 +1,16 @@
+.grid3{
+  width: 800px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1000fr 30%;
+  grid-template-rows: 5fr 10fr;
+  height: 300px;
+  border: solid 1px rgb(142, 142, 142);
+  text-align: center;
+  background-color: rgb(205, 205, 205);
+  
+  gap: 10px;
+}
+.grid3 .a{
+  grid-area: 1/3/3/4
+}

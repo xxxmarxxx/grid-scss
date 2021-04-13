@@ -1,33 +1,36 @@
 // jawne okreslenie
 
 .grid2{
+  width: 800px;
+  margin: 10px auto;
   display: grid;
-  grid-template-columns: auto auto 30%;
+  grid-template-columns: 1fr auto  30%;
   grid-template-rows: 1fr 100px;
   justify-content: left;
+  height: 200px;
   margin-top: 20px;
   padding: 20px;
-  margin: 10px;
+  
   border: solid 1px rgb(142, 142, 142);
   text-align: center;
   background-color: rgb(220, 220, 220);
 }
 .a{
-  background-color: aquamarine;
+  background-color: #a5a542;
   
 }
 .b{
-  background-color: chocolate;
+  background-color: #969456;
 }
 .c{
-  background-color: rgb(235, 173, 14);
+  background-color: #868466;
 }
 .d{
-  background-color: rgb(222, 16, 222);
+  background-color: #747474;
 }
 .e{
-  background-color: deepskyblue;
+  background-color: var(--clr-primary-5);
 }
-.f{
-  background-color: forestgreen;
-}
+// .f{
+//   background-color: var(--clr-green-light);
+// }

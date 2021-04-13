@@ -1,0 +1,41 @@
+.grid4{
+  width: 800px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  grid-template-rows: 100px auto auto;
+  grid-template-areas: 
+  "logo nav article"
+  "info info article"
+  "footer footer article";
+  border: solid 1px rgb(142, 142, 142);
+  text-align: center;
+  background-color: rgb(220, 220, 220);
+  color: azure;
+  column-gap: 10px;
+  row-gap: 10px;
+  // place-items: center;
+
+}
+.nav{
+  background-color: #b1b136;
+  
+}
+.logo{
+  background-color: #5a5abd;
+}
+
+.article{ 
+  grid-area: article;
+  background-color: #808000;
+ }
+.info{ 
+  height: 200px;
+  grid-area: info; 
+  background-color: #bdb76b;
+}
+.footer{ 
+  height: 100px;
+  grid-area: footer;
+  background-color: #9b9b4c;
+ }
