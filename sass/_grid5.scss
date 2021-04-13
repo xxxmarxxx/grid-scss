@@ -1,0 +1,36 @@
+.grid5{
+  width: 800px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: auto repeat(4, 1fr) 100px;
+  grid-template-rows: repeat(3,100px 15px);
+  grid-template-areas: 
+  "logo nav article"
+  "info info article"
+  "footer footer article";
+  border: solid 1px rgb(142, 142, 142);
+  text-align: center;
+  background-color: rgb(220, 220, 220);
+  color: azure;
+  // column-gap: 10px;
+  gap: 10px;
+  // place-items: center;
+
+}
+.nav{
+  background-color: #b1b136;
+  
+}
+.logo{
+  background-color: #5a5abd;
+}
+
+.article{ 
+  background-color: #808000;
+ }
+.info{ 
+  background-color: #bdb76b;
+}
+.footer{ 
+  background-color: #9b9b4c;
+ }

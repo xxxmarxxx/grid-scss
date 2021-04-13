@@ -364,4 +364,41 @@ Buttons
   grid-area: footer;
   background-color: #9b9b4c;
 }
+
+.grid5 {
+  width: 800px;
+  margin: 10px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto (1fr)[4] 100px;
+      grid-template-columns: auto repeat(4, 1fr) 100px;
+  -ms-grid-rows: (100px 15px)[3];
+      grid-template-rows: repeat(3, 100px 15px);
+      grid-template-areas: "logo nav article" "info info article" "footer footer article";
+  border: solid 1px #8e8e8e;
+  text-align: center;
+  background-color: gainsboro;
+  color: azure;
+  gap: 10px;
+}
+
+.nav {
+  background-color: #b1b136;
+}
+
+.logo {
+  background-color: #5a5abd;
+}
+
+.article {
+  background-color: #808000;
+}
+
+.info {
+  background-color: #bdb76b;
+}
+
+.footer {
+  background-color: #9b9b4c;
+}
 /*# sourceMappingURL=style.css.map */
