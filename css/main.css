@@ -5,8 +5,9 @@
   grid-auto-flow: row;
   -ms-grid-columns: 20% 1fr 20%;
       grid-template-columns: 20% 1fr 20%;
-  -ms-grid-rows: 100px 60px 40px;
-      grid-template-rows: 100px 60px 40px;
+  -ms-grid-rows: 100px 60px 40px 150px;
+      grid-template-rows: 100px 60px 40px 150px;
+  border: solid 1px #8e8e8e;
 }
 
 .e1 {

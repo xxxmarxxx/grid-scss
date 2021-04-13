@@ -1,0 +1,25 @@
+// jawne okreslenie
+
+.grid2{
+  margin-top: 20px;
+  border: solid 1px rgb(142, 142, 142);
+  display: grid;
+  grid-template-columns: 1fr auto 30%;
+  grid-template-rows: 1fr 100px;
+  text-align: center;
+}
+.a{
+  background-color: aquamarine;
+}
+.b{
+  background-color: chocolate;
+}
+.c{
+  background-color: rgb(235, 173, 14);
+}
+.d{
+  background-color: rgb(222, 16, 222);
+}
+.e{
+  background-color: deepskyblue;
+}
